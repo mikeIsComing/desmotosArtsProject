@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 1400px;
+    min-width: 400px;
+    margin: 40px auto;
+    border: 1px solid red;
+    padding: 0px 10px;
+}
+
+header h1{
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    
+    background-image: url(../resources/pattern.jpeg);
+    margin: 50px 0;
+}
+
+section h2{
+ 
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+section span{
+    color: blue;
+    
+    font-weight: bold;
+}
+
+.brushes{
+    background-color: mediumspringgreen;
+}
+.frames{
+    background-color: lightcoral;
+}
+.paint{
+    background-color: skyblue;
+}
+
+section,h3,p,h2{
+    margin:20px 0;
+}
+
+footer{
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+nav{
+    margin: 20px 0;
+}
+a{
+    color: black;
+    text-decoration: none;
+    
+
+}
+
+a:hover{
+    color: grey;
+}
