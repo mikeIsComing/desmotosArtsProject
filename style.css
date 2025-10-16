@@ -23,7 +23,7 @@ header h1{
     color: khaki;
     text-align: center;
     
-    background-image: url(./pattern.jpeg);
+    background-image: url("./pattern.jpeg");
     margin: 50px 0;
 }
 
